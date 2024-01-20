@@ -10,7 +10,7 @@
 
 - 🔭 I’m currently working on **command program**
 
-- 🌱 I’m currently learning **python & c++ ..**
+- 🌱 I’m currently learning **java..,python & c++ ..**
 
 - 👯 I’m looking to collaborate with **passionate programmers..**
 
