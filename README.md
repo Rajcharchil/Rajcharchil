@@ -14,7 +14,7 @@
 
 - 👯 I’m looking to collaborate with **passionate programmers..**
 
-- 🤝 I’m looking for help with **DSA skills person.**
+- 🤝 I’m looking for help with **Android skills person.**
 
 - 👨‍💻 All of my projects are available at [https://github.com/Rajcharchil](https://github.com/Rajcharchil)
 
