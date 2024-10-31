@@ -38,7 +38,7 @@
 
 <h3 align="center">Support Me:</h3>
 <p align="center">
-  <h4 align="center">🙂😎🥸💻</h4>
+  <h4 align="center">🙂😎🥸🔛💻</h4>
   <a href="https://www.buymeacoffee.com/namaste🙏" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="Buy Me a Coffee" /></a>
 </p>
 
