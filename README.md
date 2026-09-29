@@ -1,60 +1,134 @@
-<h1 align="center">Hey there! 👋 I'm Charchil</h1>
-<h3 align="center">A Passionate Software Developer from India 🚀</h3>
-
+<!-- ═══════════════ HEADER ═══════════════ -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=rajcharchil&label=Profile%20views&color=blue&style=plastic" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/rajcharchil?label=Followers" alt="Followers" />
-  <img src="https://img.shields.io/github/stars/rajcharchil?label=Stars" alt="Stars" />
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0f2027,50:203a43,100:2c5364&height=240&section=header&text=Hey%20there!%20I'm%20Charchil&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=A%20Passionate%20Software%20Developer%20from%20India&descSize=18&descAlignY=58" width="100%" alt="header" />
 </p>
 
-
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=rajcharchil&theme=onedark&no-frame=true&margin-w=10&column=7" alt="GitHub Trophies" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=00E5FF&center=true&vCenter=true&width=650&lines=Software+Developer+and+Tester;Android+and+Mobile+Web+Testing;Learning+AI+and+ML;Open+to+Collaboration" alt="Typing SVG" />
 </p>
 
----
-
-### About Me
-- 🔭 Working on **Android and mobile/web testing**
-- 🌱 Learning **AI & ML** to build smarter applications
-- 👯 Looking to collaborate with **passionate programmers**
-- 🤝 Seeking help with **AI/ML development**
-- 💬 Ask me about **Android** or **Software Testing**
-- 📫 Reach me at **rajcharchil555@gmail.com**
-- ⚡ Fun fact: **The first computer virus was created in 1986!**
-
----
-
-### 📊 GitHub Stats
-
 <p align="center">
-  <!-- GitHub Stats -->
-  <img src="https://github-readme-stats.vercel.app/api?username=rajcharchil&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117" alt="GitHub Stats" />
-  
-  <!-- GitHub Streak -->
- <img src="https://streak-stats.demolab.com?user=rajcharchil&theme=radical&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
-
-
-  <!-- Top Languages -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajcharchil&layout=compact&theme=radical&hide_border=true&bg_color=0D1117" alt="Top Languages" />
+  <img src="https://komarev.com/ghpvc/?username=rajcharchil&label=Profile%20views&color=00b4d8&style=for-the-badge" alt="Profile Views" />
+  <a href="https://github.com/rajcharchil?tab=followers"><img src="https://img.shields.io/github/followers/rajcharchil?label=Followers&style=for-the-badge&logo=github&color=0f2027" alt="Followers" /></a>
+  <img src="https://img.shields.io/badge/Focus-Android%20%26%20Testing-203a43?style=for-the-badge&logo=android&logoColor=white" alt="Focus" />
 </p>
 
----
-
-### 🌐 Connect with Me:-
-
 <p align="center">
-  <a href="https://instagram.com/charchil_cr11" target="blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="mailto:rajcharchil555@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
+  <a href="https://instagram.com/charchil_cr11" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="https://github.com/rajcharchil"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="divider" />
 
-### 🛠️ Languages & Tools
+<!-- ═══════════════ ABOUT ═══════════════ -->
+<h2 align="center">👨‍💻 About Me</h2>
+
+<table align="center" width="100%">
+<tr>
+<td width="55%" valign="top">
+
+```yaml
+name: Charchil
+location: India 🇮🇳
+role: Software Developer & Tester
+currently_working_on:
+  - Android testing
+  - Mobile / Web testing
+currently_learning: AI & ML 🧠
+looking_to: Collaborate with passionate programmers
+need_help_with: AI/ML development
+ask_me_about: [Android, Software Testing]
+reach_me_at: rajcharchil555@gmail.com
+```
+
+</td>
+<td width="45%" valign="middle">
+
+🔭 Working on **Android and mobile/web testing**
+
+🌱 Learning **AI & ML** to build smarter applications
+
+👯 Looking to collaborate with **passionate programmers**
+
+🤝 Seeking help with **AI/ML development**
+
+💬 Ask me about **Android** or **Software Testing**
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>⚡ Click for a fun fact</b></summary>
+<br>
+
+> 🦠 **The first computer virus was created in 1986!**
+
+</details>
+
+<!-- ═══════════════ TECH STACK ═══════════════ -->
+<h2 align="center">🛠️ Languages & Tools</h2>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=androidstudio,kotlin,java,c,cpp,js,nodejs,python,mysql,aws,selenium,blender&perline=12" alt="Tech Stack" />
+</p>
 
 <div align="center">
 
-| | | | | | | | | | | | |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" width="40"/><br>Android | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="40"/><br>AWS | <img src="https://download.blender.org/branding/community/blender_community_badge_white.svg" width="40"/><br>Blender | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="40"/><br>C | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="40"/><br>C++ | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="40"/><br>Java | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40"/><br>JS | <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" width="40"/><br>Kotlin | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="40"/><br>MySQL | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" width="40"/><br>Node.js | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40"/><br>Python | <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" width="40"/><br>Selenium |
+| 📱 Mobile | 🧪 Testing | 💻 Languages | ☁️ Backend & Cloud | 🎨 3D |
+|:---:|:---:|:---:|:---:|:---:|
+| Android | Selenium / Appium | C · C++ · Java | Node.js | Blender |
+| Kotlin | Mobile / Web QA | JS · Python | MySQL · AWS | |
 
 </div>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="divider" />
+
+<!-- ═══════════════ GITHUB STATS (self-generated by GitHub Actions) ═══════════════ -->
+<h2 align="center">📊 GitHub Stats</h2>
+
+<p align="center">
+  <img src="./profile-summary-card-output/radical/0-profile-details.svg" width="60%" alt="Profile Details" />
+</p>
+
+<p align="center">
+  <img src="./profile-summary-card-output/radical/3-stats.svg" width="48%" alt="GitHub Stats" />
+  <img src="./profile-summary-card-output/radical/2-most-commit-language.svg" width="48%" alt="Most Commit Language" />
+</p>
+
+<p align="center">
+  <img src="./profile-summary-card-output/radical/1-repos-per-language.svg" width="48%" alt="Repos per Language" />
+  <img src="./profile-summary-card-output/radical/4-productive-time.svg" width="48%" alt="Productive Time" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=rajcharchil&theme=radical&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=0D1117" alt="GitHub Streak" />
+</p>
+
+<!-- ═══════════════ 3D CONTRIBUTIONS ═══════════════ -->
+<h2 align="center">🧊 3D Contribution Graph</h2>
+
+<p align="center">
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Contribution Graph" />
+</p>
+
+<!-- ═══════════════ SNAKE ═══════════════ -->
+<h2 align="center">🐍 Contribution Snake</h2>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rajcharchil/rajcharchil/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rajcharchil/rajcharchil/output/github-snake.svg" />
+    <img alt="Contribution snake" src="https://raw.githubusercontent.com/rajcharchil/rajcharchil/output/github-snake-dark.svg" />
+  </picture>
+</p>
+
+<!-- ═══════════════ FOOTER ═══════════════ -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1500&color=9CA3AF&center=true&vCenter=true&width=500&lines=Thanks+for+visiting;Let+us+build+something+awesome+together" alt="Footer typing" />
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer" width="100%" alt="footer" />
+</p>
