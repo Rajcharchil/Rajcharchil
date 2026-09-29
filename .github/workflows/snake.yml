@@ -30,19 +30,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  # 2) Stats cards + 3D graph -> main branch (ek hi job, taaki push conflict na ho)
+  # 2) 3D graph + stats cards -> main branch
   cards:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
-
-      - name: Profile summary cards
-        uses: vn7n24fzkq/github-profile-summary-cards@release/v5
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          USERNAME: ${{ github.repository_owner }}
 
       - name: 3D contribution graph
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
@@ -50,11 +43,20 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
-      - name: Commit generated images
+      - name: Commit 3D graph
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A profile-summary-card-output profile-3d-contrib
-          git commit -m "Update profile graphics" || echo "No changes to commit"
+          git add -A profile-3d-contrib
+          git commit -m "Update 3D contribution graph" || echo "No changes to commit"
           git pull --rebase
           git push
+
+      - name: Profile summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: "main"
