@@ -1,0 +1,60 @@
+name: Generate Profile Graphics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"      # roz raat 12 baje (UTC)
+  workflow_dispatch:          # manual run ke liye
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  # 1) Snake -> "output" branch
+  snake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  # 2) Stats cards + 3D graph -> main branch (ek hi job, taaki push conflict na ho)
+  cards:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Profile summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release/v5
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: 3D contribution graph
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit generated images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A profile-summary-card-output profile-3d-contrib
+          git commit -m "Update profile graphics" || echo "No changes to commit"
+          git pull --rebase
+          git push
